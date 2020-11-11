@@ -1,0 +1,14 @@
+﻿  Tutor.cpp
+C:\Users\parml\source\repos\RWCSchedulerVUpdate\RWCSchedulerVUpdate\Tutor.h(170,15): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\parml\source\repos\RWCSchedulerVUpdate\RWCSchedulerVUpdate\Tutor.h(177,16): warning C4018: '>=': signed/unsigned mismatch
+  main.cpp
+C:\Users\parml\source\repos\RWCSchedulerVUpdate\RWCSchedulerVUpdate\Tutor.h(170,15): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\parml\source\repos\RWCSchedulerVUpdate\RWCSchedulerVUpdate\Tutor.h(177,16): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\parml\source\repos\RWCSchedulerVUpdate\RWCSchedulerVUpdate\Hour.h(63,21): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\parml\source\repos\RWCSchedulerVUpdate\RWCSchedulerVUpdate\Hour.h(83,21): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\parml\source\repos\RWCSchedulerVUpdate\RWCSchedulerVUpdate\Day.h(85,9): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\parml\source\repos\RWCSchedulerVUpdate\RWCSchedulerVUpdate\main.cpp(182,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\parml\source\repos\RWCSchedulerVUpdate\RWCSchedulerVUpdate\main.cpp(189,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\parml\source\repos\RWCSchedulerVUpdate\RWCSchedulerVUpdate\main.cpp(191,11): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  RWCSchedulerVUpdate.vcxproj -> C:\Users\parml\source\repos\RWCSchedulerVUpdate\Debug\RWCSchedulerVUpdate.exe

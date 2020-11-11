@@ -1,0 +1,105 @@
+Tighten limits:
+	- make sure no one hour shifts or gap hours shifts
+	- One shift a day
+
+	*BIG ISSUE*
+	For some reason we're getting a number of one hour shifts? why and how? Do I just have it allowing one hour shifts at the end of assignment? tighten, tighten, tighten.
+
+
+
+In following pseudo code, use package hashcodes insteads of of shift info vecto. Now the second function should simply be
+{
+
+void recursiveCall()
+{
+	for (p : people without min)
+	{
+		makePackage(getnextunusedShift());
+		call recursive(p : shift);
+	}
+}
+
+bool recursiveCall2(p)
+{
+	for (tutor.getnextunusedShifts())
+	{
+		if  (recursive(p, package shift))
+		{
+			return true;
+		}
+	}
+
+}
+
+
+bool recursive(tutor p, package Shift)
+{
+	find first hour of shift();
+	for (tutors on shift) {
+		for (tutors.shifts)
+		{
+			if (Shift.hashcode == tutors.shifts.hashcode)
+			{
+				MATCH!
+				if (tutor.recursive)
+			}
+		}
+	}
+
+}
+
+
+
+}
+
+
+std::vector<shiftInfo> next, std::string tutorName, int hourLimit
+
+for (p : people without min)
+{
+	call recursive
+}
+
+//should regulate by size, yes?
+bool recursive(p)
+{
+call function to reset flags
+Set this flag
+	for (shifts : p)
+	{
+	(shifts = std::vector<shiftInfo>)
+		int i = (shifts.at(0).getDay());
+
+		if (weekDays.at(i).checkHour(shift, p.getName(); p.hoursRemaining()))
+		{
+			weekDays.at(i).selectHour(shift, p.getName(); p.hoursRemaining());
+			return true;
+		}
+		else
+		{
+			for ( otherP : slots )
+			{
+
+				bool successMove;
+				successMove = call recursive(otherP);
+				if (successMove )
+				{
+					remove otherP; //Need to write a remove function!!
+					int i = (shifts.at(0).getDay());
+					weekDays.at(i).selectHour(shift, p.getName(); p.hoursRemaining());
+					return true;
+				}
+			}
+			return false;
+
+		}
+	}
+
+
+}
+
+
+void removeName()
+{
+
+}

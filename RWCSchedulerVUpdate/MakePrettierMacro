@@ -1,0 +1,17 @@
+Sub makePrettier()
+
+Dim myString As String
+myString = Range("A1").Value
+
+Dim rng As Range, cell As Range
+Set rng = Range("B3:F14")
+
+For Each cell In rng
+    myString = cell.Value
+    cell = Replace(myString, "-", vbCrLf)
+Next cell
+
+Columns("B:F").ColumnWidth = 25
+Range("B3:F14").VerticalAlignment = xlTop
+
+End Sub
